@@ -1,0 +1,542 @@
+/* Foundation v2.2 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+
+
+
+
+/*for home page*/
+
+ /*for header-block style start here*/
+ 
+ .header-block 
+ {
+	 padding: 25px 0px 20px; 
+ }
+ .logo 
+ {
+	 padding: 5px 0 0
+ }
+ .header-block .logo h1 
+ {
+	 height: 71px;
+	 display: inline-block;
+	 margin: 0;
+ }
+ .header-block .phone 
+ {
+	 text-align: right;
+	 font-family: Arial, Helvetica, sans-serif;
+ }
+ /*.upper-header 
+ {
+	 padding-bottom: 25px;}*/
+ .phone p span 
+ {
+	 text-transform: capitalize;
+	 font-weight: bold;
+	 color: #0F6D6D
+ } 
+ 
+/**********navigation style strat here***************/
+
+ .nav-bar>li:hover a 
+ {
+	 background: #007A7B;
+ }
+ ul.lower-nav 
+ {
+	 overflow: hidden;
+	 margin: 0;
+ }
+ ul.lower-nav li 
+ {
+	 float: left;
+	 text-align: center;
+	 
+	 display: block;
+	 margin: 0;
+	 border-top: 5px solid #000;
+	 border-bottom: 5px solid #082626; 
+	 background: #101212;
+ }
+ 
+ ul.lower-nav li a 
+ {
+	 padding: 18px 0;
+	 width:235px;
+	 display: block;
+	 text-transform: capitalize;
+	 color: #CBCBCB;
+	 font-weight: bold;
+ }
+ ul.lower-nav li:hover 
+ {
+	 background: #000000;
+	 border-bottom: 5px solid #007a7a;
+	 transition: .3s;
+	 -webkit-transition: .3s; 
+	 -moz-transition: .3s; 
+	 -o-transition: .3s
+ }
+ ul.lower-nav li:hover a 
+ {
+	 color: #FFF
+ }
+ 
+ /**************main container style start here**************/
+ 
+  
+ .main-container 
+ {
+	 overflow: hidden;
+	 margin-bottom: 30px;
+ }
+ .main-container h3,
+ .left-content h3 
+ {
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 19px;
+	 color:  #FFF;
+	 text-transform: capitalize;
+	 font-style: italic;
+	 
+ }
+ .main-container .right-content .button 
+ {
+	 width: 100%;
+	 margin: 0 0 10px 0;
+	}
+ 
+ .left-content 
+ {
+	 overflow: hidden;
+	 background: #101212;
+	 padding: 20px 20px 25px;
+	 margin-top: 25px;
+ }
+ .right-content 
+ {
+	 margin-top: 25px;
+ }
+ .left-content img 
+ {
+	 float: left;
+	 margin-right: 15px;
+ } 
+  .left-content .product-details 
+ {
+	 float: left;
+	 margin-left: 15px;
+	 width: 55%
+ }
+ .left-content p 
+ {
+	 
+	 font-size: 14px;
+	 line-height: 21px;
+	 text-align: left
+	 
+ }
+ .left-content ul 
+ {
+	 margin-bottom: 8px
+ }
+ .left-content ul li span  
+ {
+	 color: #095F60
+	}
+   .left-content ul li 
+   {
+	   margin: 0;
+	   color: #b1b1b1;
+    }
+	.left-content a.link-more 
+	{
+		color: #095F60;
+	}
+	.left-content a.link-more:hover,
+	.left-content a.view-more:hover
+	{
+		text-decoration:underline
+	}
+	
+	 .right-content h4 
+	 {
+		 color: #FFF
+	 }
+	 .right-content p:last-child 
+	 {
+		 margin-bottom: 0
+	 }
+	.button 
+	{
+		width: 100%;
+		background: url(../images/button-bg.jpg) repeat-x;
+		border: none;
+		height: 39px;
+		cursor: pointer;
+		margin-bottom: 10px;
+		color: #FFF;
+	    text-transform: capitalize;
+	    font-weight: bold;
+	}
+	.button:hover 
+	{
+		background: url(../images/button-bg-hover.jpg) repeat-x
+	}
+	.upper-content 
+	{
+		background: #101212;
+		padding: 15px 10px;
+	}
+	.upper-content p:last-child span
+	{
+		color: #0F6D6D;
+	}
+	.lower-content 
+	{
+		margin-top: 20px;
+		background: #333333;
+		padding: 10px 10px 0 10px;
+	}
+	.lower-content h5 
+	{
+		font-size:14px;
+		color: #FFF
+	}
+ 	.lower-content .row:first-child 
+	{
+		border-bottom: 1px solid #FFF;
+		margin-bottom: 2px
+	}
+	.lower-content .row:last-child 
+	{
+		border-top: 1px solid #687480;
+		padding-top: 5px;
+	}
+	.lower-content .row 
+	{
+		margin: 0;
+		padding-bottom: 3px;
+	}
+	.lower-content p.number 
+	{
+		font-size: 11px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #808080;
+	} 
+	.lower-content .phone-one span 
+	{
+		font-size:10px
+	}
+	
+
+/*footer style start here*/
+
+dl.sub-nav dd a:hover 
+	{
+		text-decoration: underline
+	}	
+	.footer-block 
+	{
+		overflow: hidden;
+		padding-top: 5px;
+		border-top: 1px solid #FFF
+	}
+	.footer-block p 
+	{
+		text-transform: capitalize
+	}
+	
+	
+	/*about us style start here*/
+	
+	.border 
+	{
+		border-top: 5px solid #007a7a;
+	}
+	.left-content .view-more 
+	{
+		color:#cc9933
+	}
+	
+	
+	/*plastic page start here*/
+	
+	/*.plastic 
+	{
+		padding: 0 2px
+	}*/
+	
+	.left-content .plastic span 
+	{
+		
+		color: #FFF
+	}
+	.left-content .plastic .text 
+	{
+		padding: 28px 0
+	}
+	/*service container start here*/
+	
+	.service-content 
+	{
+		overflow: hidden;
+		margin-bottom: 21px;
+	}
+	
+	.service-content img 
+	{
+		float: left
+	}
+	.service-content p 
+	{
+		margin: 0
+	}
+	.colour 
+	{
+		float: left;
+		width: 55%;
+		margin-top: 12px;
+	}
+	.services-container .colour 
+	{
+		margin: 4px 0 0;
+	}
+	.services-container .colour .button 
+	{
+		margin:0
+	}
+	.colour span 
+	{
+		margin:0;
+		display:block;
+		color: #FFF;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.service-content .colour .button 
+	{
+		height: 33px;
+		width: 46%;
+		margin-bottom: 0px;
+		float: left;
+		font-weight: normal
+	}
+	
+	
+	/*contact page style start here*/
+	
+	.main-container label.title-field 
+	{
+		display: inline-block;
+		width: 100px;
+		color: #FFF;
+		text-transform: capitalize;
+	}
+	.main-container .textarea 
+	{
+		height: 145px;
+	}
+	.main-container .textarea-field 
+	{
+		float: left;
+		margin-right: 4px;
+		width: 100px;
+		color: #FFF;
+		text-transform: capitalize;
+	}
+	.contact-form 
+	{
+		margin-top: 25px;
+	}
+	.contact 
+	{
+		padding-left: 2.5%;
+	}
+	input.input-text 
+	{
+		height:30px;
+	}
+	.main-container .button 
+	{
+		width: 150px;
+		height: 38px;
+		float: right;
+		margin-right: 11px;
+		
+	}  
+/*customize width and margin*/
+
+.kolumn, .kolumns { margin-left: 1.0%; float: left; min-height: 1px; position: relative; }
+.kolumn:first-child, .kolumns:first-child { margin-left: 0; } /*so that the first one start from the edge of the corner*/
+	[class*="kolumn"] + [class*="kolumn"]:last-child { float: right; } /*last one go to the right edge*/
+	[class*="kolumn"] + [class*="kolumn"].end { float: left}
+
+.row .col-3 
+{
+	width: 20%;
+}
+.row .col-4 
+{
+	width: 30%
+}
+.row .col-5 
+{
+	width: 36%
+}
+.row .col-7 
+{
+	width: 60%
+}
+.row .col-9 
+{
+	width:79%;
+}
+
+	.row .col-1 		{ width: 7.389166666666666%; }
+	.row .col-2 		{ width: 15.808333333333332%; }
+
+
+
+
+/*??????????????????????????????????????????????????????????????????*/
+
+
+/*****************PRODUCT GELLERY STYLE START HERE*******************/
+
+/******************MEMBERSHIP PAGE STYLE START HERE************/
+
+
+
+
+
+
+
+
+
+/* Opera */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0)
+{
+	
+	
+		
+}
+
+/*************targeting the mozilla******************/
+
+
+@-moz-document url-prefix() {
+	
+	/*.colour 
+	{
+		width: 27%
+	}*/
+	
+	
+	/*for mobile veiw of mozilla*/
+		@media only screen and (max-width: 767px) 
+	{
+		
+		
+		
+	}
+
+}
+
+
+
+/************to select the safari****************/ 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+	
+	
+}
+
+
+/**********************Responsive style start here**********************/
+
+@media only screen and (max-width: 767px) 
+{
+
+.header-block 
+{
+	margin: 0;
+	padding: 30px 0;
+}
+.nav-bar { float: none}
+.phone 
+{
+	padding: 10px 0 0
+}
+ul.lower-nav li 
+{
+	float: none;
+	margin: 0;
+	width: 100%
+}
+.left-content ul li 
+{
+	text-align: left
+}
+.left-content img 
+{
+	float: none;
+	margin: 0;
+}
+.left-content .product-details 
+{
+	text-align: left;
+	width: 100%;
+	margin: 0;
+}
+.lower-content img 
+{
+	display:block;
+	margin: 0 auto
+} 
+.colour 
+{
+	width: 100%
+}
+.service-content .button 
+{
+	width: 100%
+}
+.main-container label.title-field 
+{
+	display: block;
+	width: 100%;
+}
+.main-container label.textarea-field 
+{
+	display: block;
+	width: 100%
+}
+.main-container .button 
+{
+	width: 100%;
+	margin: 0;
+}
+.service-content .colour .button 
+{
+	width: 100%
+}
+/*customized width and columns mobile style*/
+
+		.row .row .kolumn, .row .row .kolumns { padding: 0; text-align: center }
+		.kolumn, .kolumns { width: auto !important; float: none; margin-left: 0; margin-right: 0; }
+		.kolumn:last-child, .kolumns:last-child { margin-right: 0; float: none; }
+		[class*="kolumn"] + [class*="kolumn"]:last-child { float: none; }
+		[class*="kolumn"]:before, [class*="kolumn"]:after { content:""; display:table; }
+		[class*="kolumn"]:after { clear: both; }
+
+	
+
+}
+
+
+

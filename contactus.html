@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Welcome to Neoplastic</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- container -->
+	<div class="container">
+      <div class="row"><!--header block start here-->
+      	<div class="twelve columns header-block">
+        	<div class="row upper-header">
+            	<div class="six columns"> 
+	                 <div class="logo">
+	                   <h1><a href="#"><img src="images/logo.png" title="neoplastic" alt="logo image" width="182" height="71"/></a></h1>
+	                 </div>
+                 </div>
+                <div class="six columns">
+		        	<div class="phone">
+			        	<p><span>call us:&nbsp;</span>0118 981 10101</br>
+			            <span>email us:&nbsp;</span>info@neoplastic.co.uk</p>
+		            </div>
+		            <ul class="nav-bar">
+		            	<li><a href="index.html" title="home" class="main">home</a></li>
+		            	<li><a href="aboutus.html" title="about us" class="main">about</a></li>
+		            	<li><a href="services.html" title="services" class="main">services</a></li>
+		            	<li><a href="coloursfinishes.html" title="colours & finishes" class="main">colors &amp; finishes</a></li>
+		            	<li><a href="contactus.html" title="contact us"class="main">contact us</a></li>
+		            </ul>
+                 </div>
+            </div>
+        </div> <!--header block end here-->      
+      </div>
+      <div class="row">
+            <div class="twelve columns main-container"> <!--main container start here-->
+            	<div class="row">
+            	<div class="twelve columns">
+	                <div id="featured"> 
+	                     <img src="images/contactus-image.jpg" title="services image" alt="services image" width="940" height="210"/>
+	                </div>
+                </div>
+            </div>
+                <div class="row lower-header">
+            	<div class="twelve columns border">
+                	
+                </div>
+            </div>
+            	<div class="row">
+                	<div class="twelve columns contact-form">
+                    	<div class="panel"> 
+                        	<h3>enquiry form</h3>
+                            <div class="row">
+                            	<div class="col-5 kolumns contact">
+                                	<label for="name" class="title-field">name</label>
+                                    <input type="text" class="input-text" id="name" tabindex="1"/>
+                                    <label for="company" class="title-field">company</label>
+                                    <input type="text" class="input-text" id="company" tabindex="2"/>
+                                    <label for="contact" class="title-field">contact number</label>
+                                    <input type="text" class="input-text" id="contact" tabindex="3"/>
+                                    <label for="mail" class="title-field">email address</label>
+                                    <input type="text" class="input-text" id="mail" tabindex="4"/>
+                                    <label for="site" class="title-field">web site</label>
+                                    <input type="text" class="input-text" id="site" tabindex="5"/>
+                                </div>
+                                <div class="col-7 kolumns">
+                                	<label for="subject" class="title-field">subject</label>
+                                    <input type="text" class="input-text large" id="subject" tabindex="6"/>
+                                    <label for="textarea" class="textarea-field">textarea</label>
+                                    <textarea class="textarea large" id="textarea" tabindex="7"></textarea>
+                                    <button class="button" tabindex="8">button</button>
+                                </div>
+                            </div>                            
+                        </div> 
+                    </div>
+                </div>
+            </div> <!--main container end here-->
+        
+      </div>
+      <div class="row">
+       <div class="footer-block"> <!--footer container start here-->
+      	 <div class="six columns"><!-- footer navigation start here-->
+         	<dl class="sub-nav">
+              <dd><a href="index.html" title="home">home</a></dd>
+              <dd><a href="aboutus.html" title="about us">about us</a></dd>
+              <dd><a href="services.html" title="services">services</a></dd>
+              <dd><a href="coloursfinishes.html" title="colours & finishes">colors &amp; finishes</a></dd>
+              <dd><a href="contactus.html" title="contact us">contact us</a></dd>
+              <dd><a href="#">Pending</a></dd>
+            </dl>
+         </div> <!--footer navigation end here-->
+         <div class="six columns">
+         	<p class="right">copyright 2012 adenville ltd</p>
+         </div>
+        </div> <!--footer container end here-->
+      </div>
+	</div> 
+    
+	<!-- container -->
+  	<div id="myModal" class="reveal-modal">
+        <h1>Reveal Modal Goodness</h1>
+        <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+
+	
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/modernizr.foundation.js"></script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+    <script src="javascripts/jquery-1.7.1.min.js"></script>
+    
+    
+
+</body>
+</html>
